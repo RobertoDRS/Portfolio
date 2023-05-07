@@ -1,0 +1,11 @@
+main.projetos{
+    background-color: #141414;
+    padding: 5% 0 12% 0;
+}
+
+.container-card-projects{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4%;
+    row-gap: 7%;
+}
