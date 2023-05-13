@@ -1,7 +1,6 @@
 .div-links{
     display: flex;
     gap: 3%;
-    margin-top: 8%;
 }
 
 .div-links a:hover{

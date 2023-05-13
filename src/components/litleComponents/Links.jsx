@@ -6,7 +6,7 @@ import Whatsapp from '../../assets/icones/whatsapp.png'
 
 const Links = () => {
     return(
-        <dir className="div-links">
+        <dir className="div-links margin-top">
             <a href="#"> <img src={Github} alt="logo do github" /> </a>
             <a href="#"> <img src={Linkedin} alt="logo do linkedin" /> </a>
             <a href="#"> <img src={Whatsapp} alt="logo do whatsapp" /> </a>

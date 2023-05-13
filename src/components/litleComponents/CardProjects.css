@@ -16,13 +16,37 @@ div.div-card-projects-principal div span {
 .div-links-card-projects{
     display: flex;
     gap: 4%;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .div-links-card-projects a{
     border-bottom: 1px solid #7fc3c0;
-    font-size: 2rem;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+.div-links-card-projects a:hover{
+    color: #7fc3c0;
+}
+
+.div-hover{
+    position: relative;
+}
+
+.div-hover p{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    padding: 10%;
+    display: none;
+}
+
+.div-hover:hover .img-site{
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.div-hover:hover p{
+    display: block;
 }

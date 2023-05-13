@@ -1,18 +1,16 @@
 section{
     background-color: #141414;
+    height: 100vh;
 }
 
 section div.limitar-largura{
     border-top: 2px solid #fff;
 }
 
-section .skills {
+section div.skills {
     padding: 3% 0 5% 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 10%;
+    row-gap: 20%;
 }
 
-#h2-conhecimentos{
-    margin-top: 5%;
-}

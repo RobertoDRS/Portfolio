@@ -25,13 +25,17 @@ header{
     margin-bottom: 10%;
 }
 
-.link-contato{
+a.link-contato{
     color: #fff;
     font-weight: bold;
     text-decoration: none;
     border-bottom: 2px solid #7fc3c0;
-    font-size: 2rem;
     letter-spacing: 2px;
+}
+
+a.link-contato:hover{
+    color: #7fc3c0;
+    
 }
 
 .div-header-img{

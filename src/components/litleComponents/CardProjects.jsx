@@ -3,7 +3,10 @@ import './CardProjects.css'
 const CardProjects = (props) => {
     return(
         <div className='div-card-projects-principal'>
-            <img src={props.img} alt="Imagem do site" />
+            <div className='div-hover'>
+                <img className='img-site' src={props.img} alt="Imagem do site" />
+                <p>{props.text}</p>
+            </div>
             <div>
                 <span>{props.title}</span>
                 <div className='div-links-card-projects'>
