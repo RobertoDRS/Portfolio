@@ -23,3 +23,27 @@ footer .div-footer-principal .div-contato a:hover{
     opacity: 0.7;
 }
 
+@media only screen and (max-width: 1350px){
+    footer .div-footer-principal{
+        padding: 8% 5%;
+    }
+}
+
+@media only screen and (max-width: 545px){
+    footer .div-footer-principal .div-contato img{
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 492px){
+    footer .div-footer-principal{
+        display: grid;
+        grid-template-columns: 60% 40% ;
+    }
+}
+
+@media only screen and (max-width: 492px){
+    footer .div-footer-principal .div-contato{
+        gap: 10%;
+    }
+}

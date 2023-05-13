@@ -14,3 +14,43 @@ section div.skills {
     row-gap: 20%;
 }
 
+@media only screen and (min-width: 1700px){
+    section div.skills {
+        row-gap: 30%;
+    }
+}
+
+@media only screen and (max-width: 674px){
+
+    section{
+        height:auto;
+        margin-bottom: 60%;
+    }
+
+    section div.skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 15%;
+    }
+}
+
+@media only screen and (max-width: 492px){
+
+    section div.skills {
+        justify-items: center;
+    }
+
+    section{
+        margin-bottom: 70%;
+    }
+}
+
+@media only screen and (max-width: 449px){
+    section{
+        margin-bottom: 80%;
+    }
+}
+
+
+
+

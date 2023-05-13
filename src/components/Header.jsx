@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header>
             <div className='div-header-principal limitar-largura'>
-                <div>
+                <div className='div-header-secundaria'>
                     <Links/>
 
                     <h1>
