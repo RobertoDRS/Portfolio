@@ -17,3 +17,9 @@
         justify-content: center;
     }
 }
+
+@media only screen and (max-width: 492px){
+    .div-links{
+        margin-bottom: 5%;
+    }
+}
