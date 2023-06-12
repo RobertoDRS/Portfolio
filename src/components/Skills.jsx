@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <section>
             <div className='limitar-largura'>
-                <h2 className='margin-top'>Conhecimentos</h2>
+                <h2 className='margin-top h2-habilidades'>Conhecimentos</h2>
                 <div className='skills'>
                     <CardSkills img={skills.HTML} logo="logo HTML" text="Conhecimentos em HTML 5"/>
                     <CardSkills img={skills.CSS} logo="logo CSS" text="Conhecimentos em CSS 3"/>

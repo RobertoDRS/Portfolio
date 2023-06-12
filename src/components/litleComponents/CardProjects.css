@@ -1,10 +1,10 @@
-div.div-card-projects-principal{
+div.div-card-projects-principal {
     display: flex;
     flex-direction: column;
 }
 
 
-div.div-card-projects-principal img{
+div.div-card-projects-principal img {
     width: 100%;
     margin-bottom: 3%;
 }
@@ -13,28 +13,28 @@ div.div-card-projects-principal div span {
     font-size: 2.5rem;
 }
 
-.div-links-card-projects{
+.div-links-card-projects {
     display: flex;
     gap: 4%;
     margin-top: 2%;
 }
 
-.div-links-card-projects a{
+.div-links-card-projects a {
     border-bottom: 1px solid #7fc3c0;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
-.div-links-card-projects a:hover{
+.div-links-card-projects a:hover {
     color: #7fc3c0;
 }
 
-.div-hover{
+.div-hover {
     position: relative;
 }
 
-.div-hover p{
+.div-hover p {
     position: absolute;
     top: 5%;
     left: 0;
@@ -42,12 +42,35 @@ div.div-card-projects-principal div span {
     display: none;
 }
 
-.div-hover:hover .img-site{
+.div-hover:hover .img-site {
     opacity: 0.3;
     z-index: -1;
 }
 
-.div-hover:hover p{
+.div-hover:hover p {
     display: block;
+}
+
+/** Desktop **/
+
+@media only screen and (min-width: 2200px) {
+
+    div.div-card-projects-principal div span {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (min-width: 2200px) and (max-width: 2400px) {
+
+    div.div-card-projects-principal div span {
+        font-size: 3.6rem;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 2200px) {
+    
+    div.div-card-projects-principal div span {
+        font-size: 3rem;
+    }
 }
 

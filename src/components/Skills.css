@@ -1,9 +1,9 @@
-section{
+section {
     background-color: #141414;
     height: 100vh;
 }
 
-section div.limitar-largura{
+section div.limitar-largura {
     border-top: 2px solid #fff;
 }
 
@@ -14,15 +14,24 @@ section div.skills {
     row-gap: 20%;
 }
 
-@media only screen and (min-width: 1700px){
+/** Desktop **/
+
+@media only screen and (min-width: 1700px) {
+
     section div.skills {
         row-gap: 30%;
     }
 }
 
-@media only screen and (max-width: 674px){
+/** Mobile **/
 
-    section{
+@media only screen and (max-width: 674px) {
+
+    .h2-habilidades {
+        margin-top: 15%;
+    }
+
+    section {
         height:auto;
         margin-bottom: 60%;
     }
@@ -34,20 +43,21 @@ section div.skills {
     }
 }
 
-@media only screen and (max-width: 492px){
+@media only screen and (max-width: 492px) {
 
     section div.skills {
         justify-items: center;
     }
 
-    section{
+    section {
         margin-bottom: 70%;
     }
 }
 
-@media only screen and (max-width: 449px){
-    section{
-        margin-bottom: 90%;
+@media only screen and (max-width: 449px) {
+
+    section {
+        margin-bottom: 100%;
     }
 }
 

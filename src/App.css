@@ -4,45 +4,114 @@
     margin: 0 auto;
 }
 
-.margin-top{
+.margin-top {
     margin-top: 8%;
 }
 
-h1{
+h1 {
     width: 120%;
     font-size: 5.9rem;
     margin: 10% 0 4% 0;
     position: relative;
-    z-index: 10;
-    
+    z-index: 10;  
 }
 
-h2{
+h2 {
     font-size: 4.5rem;
     margin-bottom: 5%;
 }
 
-p{
-    font-size: 1.8rem;
-}
-
-a{
+p {
     font-size: 2rem;
 }
 
-@media only screen and (max-width: 1350px){
+a {
+    font-size: 2.2rem;
+}
+
+/** Desktop **/
+
+@media only screen and (min-width: 2400px) {
+
+    .limitar-largura {
+        max-width: 2224px;
+    }
+
+    p {
+        font-size: 3.4rem;
+    }
+    
+    a {
+        font-size: 3.6rem;
+    }
+}
+
+@media only screen and (min-width: 2300px) and (max-width: 2400px) {
+    
+    .limitar-largura {
+        max-width: 2124px;
+    }
+}
+
+@media only screen and (min-width: 2200px)and (max-width: 2400px) {
+
+    p{
+        font-size: 3rem;
+    }
+    
+    a{
+        font-size: 3.2rem;
+    }
+}
+
+@media only screen and (min-width: 2100px) and (max-width: 2300px) {
+
+    .limitar-largura {
+        max-width: 1924px;
+    }
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 2100px) {
+
+    .limitar-largura {
+        max-width: 1724px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 1900px) {
+
+    .limitar-largura {
+        max-width: 1524px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 2200px) {
+
+    p{
+        font-size: 2.4rem;
+    }
+    
+    a{
+        font-size: 2.6rem;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+
     .limitar-largura {
         padding: 0 5%;
     }
 }
 
-@media only screen and (max-width: 1250px){
+@media only screen and (max-width: 1250px) {
+
     h1{
         width: 100%;
     }
 }
 
-@media only screen and (max-width: 1090px){
+@media only screen and (max-width: 1090px) {
+
     h1{
         font-size: 5rem;
     }
@@ -52,7 +121,8 @@ a{
     }
 }
 
-@media only screen and (max-width: 830px){
+@media only screen and (max-width: 830px) {
+
     h1{
         font-size: 4rem;
     }
@@ -62,17 +132,26 @@ a{
     }
 }
 
-@media only screen and (max-width: 674px){
+/** Mobile **/
+
+@media only screen and (max-width: 674px) {
+
     h1{
         text-align: center;
+        margin: 5% 0 4% 0;
     }
 
     h2{
         margin-bottom: 15%;
     }
+
+    .margin-top{
+        margin-top: 5%;
+    }
 }
 
-@media only screen and (max-width: 545px){
+@media only screen and (max-width: 545px) {
+
     h1{
         font-size: 3.5rem;
     }
@@ -82,10 +161,10 @@ a{
     }
 }
 
-@media only screen and (max-width: 492px){
+@media only screen and (max-width: 492px) {
+
     h1{
         font-size: 3.3rem;
-        margin-bottom: 8%;
     }
 
     h2{
@@ -94,10 +173,10 @@ a{
     }
 }
 
-@media only screen and (max-width: 449px){
+@media only screen and (max-width: 449px) {
+    
     h1{
         font-size: 3rem;
-        margin-bottom: 12%;
     }
 
     h2{

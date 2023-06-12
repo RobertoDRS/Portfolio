@@ -1,9 +1,9 @@
-header{
+header {
     background-color: #141414;
     height: 100vh;
 }
 
-.div-header-principal{
+.div-header-principal {
     display: grid;
     grid-template-columns: 55% 45%;
     height: 90vh;
@@ -16,16 +16,16 @@ header{
     color: #f5f3f3;
 }
 
-.nome-ultimas-letras{
+.nome-ultimas-letras {
     color: #141414;
 }
 
-.paragrafo-header{
+.paragrafo-header {
     width: 80%;
     margin-bottom: 10%;
 }
 
-a.link-contato{
+a.link-contato {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
@@ -33,93 +33,144 @@ a.link-contato{
     letter-spacing: 2px;
 }
 
-a.link-contato:hover{
+a.link-contato:hover {
     color: #7fc3c0;
     
 }
 
-.div-header-img{
+.div-header-img-mobile {
+    display: none;
+}
+
+.div-header-img {
     background-image: url("../assets/WhatsApp\ Image\ 2023-05-06\ at\ 14.28.09.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
 }
 
+/** Desktop **/
 
-@media only screen and (max-width: 1350px){
-    .nome-ultimas-letras{
+@media only screen and (min-width: 1700px) {
+
+    .nome, .nome-ultimas-letras {
+        border-bottom: 3px solid #7fc3c0;
+        color: #fff;
+    }
+
+    a.link-contato {
+        border-bottom: 3px solid #7fc3c0;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .nome-ultimas-letras {
         color: #fff;
     }
 }
 
-@media only screen and (max-width: 1090px){
-    .nome, .nome-ultimas-letras{
+@media only screen and (max-width: 1090px) {
+     
+    .nome, .nome-ultimas-letras {
         font-size: 5rem;
     }
 }
 
-@media only screen and (max-width: 910px){
-    .div-header-principal{
+@media only screen and (max-width: 910px) {
+
+    .div-header-principal {
         grid-template-columns: 60% 40%;
     }
 }
 
-@media only screen and (max-width: 830px){
-    .nome, .nome-ultimas-letras{
+@media only screen and (max-width: 830px) {
+
+    .nome, .nome-ultimas-letras {
         font-size: 4rem;
     }
 }
 
+/** Mobile **/
 
-@media only screen and (max-width: 674px){
+@media only screen and (max-width: 674px) {
 
-    header{
+    header {
         height: 100vh;
     }
 
-    .div-header-principal{
+    .div-header-principal {
         grid-template-columns: 100%;
     }
 
-    .div-header-secundaria{
+    .div-header-secundaria {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .div-header-img{
+    .div-header-img {
         display: none;
     }
 
-    .paragrafo-header{
-        margin-bottom: 25%;
+    .div-header-img-mobile {
+        margin-top: 5%;
+        display: block;
+        background-image: url('../assets/WhatsApp\ Image\ 2023-05-06\ at\ 14.28.09.jpeg');
+        background-size:55%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 40%;
+        height: 42vh;
+        width: 100%;
+    }
+
+    .paragrafo-header {
+        margin-bottom: 5%;
     }
 }
 
-@media only screen and (max-width: 545px){
-    .nome, .nome-ultimas-letras{
+@media only screen and (max-width: 595px) {
+
+    .paragrafo-header {
+        margin-bottom: 9%;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+
+    .nome, .nome-ultimas-letras {
         font-size: 3.5rem;
     }
+
+    .div-header-img-mobile {
+        background-size:65%;
+    }
 }
 
-@media only screen and (max-width: 492px){
+@media only screen and (max-width: 492px) {
 
-    .nome, .nome-ultimas-letras{
+    .nome, .nome-ultimas-letras {
         font-size: 3.3rem;
     }
 
-    .paragrafo-header{
+    .paragrafo-header {
         width: 100%;
         text-align: center;
     }
 
-    .paragrafo-header{
-        margin-bottom: 45%;
+    .paragrafo-header {
+        margin-bottom: 10%;
+    }
+
+    .div-header-img-mobile {
+        background-size:75%;
     }
 }
 
-@media only screen and (max-width: 449px){
-    .nome, .nome-ultimas-letras{
+@media only screen and (max-width: 449px) {
+
+    .nome, .nome-ultimas-letras {
         font-size: 3rem;
     }
 }

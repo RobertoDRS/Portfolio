@@ -9,6 +9,8 @@ const Header = () => {
                 <div className='div-header-secundaria'>
                     <Links/>
 
+                    <div className="div-header-img-mobile"></div>
+
                     <h1>
                         Prazer em te conhecer! <br/>
                         Meu nome é <span className='nome'>Roberto da Roc<span className='nome-ultimas-letras'>ha.</span></span>
@@ -21,9 +23,7 @@ const Header = () => {
                     <a className='link-contato' href="#">Entrar em contato</a>
                 </div>
 
-                <div className="div-header-img">
-                    
-                </div>
+                <div className="div-header-img"></div>
             </div>
         </header>
     )

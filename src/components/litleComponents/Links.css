@@ -1,25 +1,52 @@
-.div-links{
+.div-links {
     display: flex;
     gap: 3%;
 }
 
-.div-links a:hover{
+.div-links a:hover {
     opacity: 0.7;
 }
 
-.div-links a img{
+.div-links a img {
     width: 30px;
 }
 
-@media only screen and (max-width: 674px){
-    .div-links{
+/** Desktop **/
+
+@media only screen and (min-width: 2200px) {
+
+    .div-links a img {
+        width: 50px;
+    }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 2200px) {
+
+    .div-links a img {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .div-links {
+        gap: 5%;
+    }
+}
+
+/** Mobile **/
+
+@media only screen and (max-width: 674px) {
+
+    .div-links {
         gap: 30%;
         justify-content: center;
     }
 }
 
-@media only screen and (max-width: 492px){
-    .div-links{
+@media only screen and (max-width: 492px) {
+
+    .div-links {
         margin-bottom: 5%;
     }
 }

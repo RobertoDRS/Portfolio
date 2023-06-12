@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <main className='projetos'>
           <div className='limitar-largura'>
-            <h2>Projetos</h2>
+            <h2 className='h2-projetos'>Projetos</h2>
             <div className='container-card-projects'>
                 <CardProjects img={Formulario} title="Formulário multi-step" 
                 text="Formulário multi-step feito utilizando HTML, CSS, JavaScript, React e Context API"/>
