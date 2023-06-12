@@ -105,8 +105,21 @@ a {
 
 @media only screen and (max-width: 1250px) {
 
+    p {
+        font-size: 1.8rem;
+    }
+    
+    a {
+        font-size: 2rem;
+    }
+
     h1{
+        font-size: 5.2rem;
         width: 100%;
+    }
+
+    h2{
+        font-size: 4.2rem;
     }
 }
 
@@ -138,16 +151,27 @@ a {
 
     h1{
         text-align: center;
-        margin: 5% 0 4% 0;
+        margin: 5% 0 5% 0;
+        font-size: 3.6rem;
     }
 
     h2{
         margin-bottom: 15%;
+        font-size: 3rem;
     }
 
     .margin-top{
         margin-top: 5%;
     }
+
+    p {
+        font-size: 1.6rem;
+    }
+    
+    a {
+        font-size: 1.8rem;
+    }
+    
 }
 
 @media only screen and (max-width: 545px) {
