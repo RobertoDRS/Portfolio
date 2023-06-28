@@ -10,8 +10,8 @@ const Skills = () => {
             <div className='limitar-largura'>
                 <h2 className='margin-top h2-habilidades'>Conhecimentos</h2>
                 <div className='skills'>
-                    <CardSkills img={skills.HTML} logo="logo HTML" text="Conhecimentos em HTML 5"/>
-                    <CardSkills img={skills.CSS} logo="logo CSS" text="Conhecimentos em CSS 3"/>
+                    <CardSkills img={skills.HTML} logo="logo HTML" text="Conhecimentos em HTML5"/>
+                    <CardSkills img={skills.CSS} logo="logo CSS" text="Conhecimentos em CSS3"/>
                     <CardSkills img={skills.JS} logo="logo JavaScript" text="Conhecimentos em JavaScript"/>
                     <CardSkills img={skills.TypeScript} logo="logo TypeScript" text="Conhecimentos em TypeScript"/>
                     <CardSkills img={skills.React} logo="logo React" text="Conhecimentos em React"/>

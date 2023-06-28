@@ -7,9 +7,9 @@ import Whatsapp from '../../assets/icones/whatsapp.png'
 const Links = () => {
     return(
         <dir className="div-links margin-top">
-            <a href="#"> <img src={Github} alt="logo do github" /> </a>
-            <a href="#"> <img src={Linkedin} alt="logo do linkedin" /> </a>
-            <a href="#"> <img src={Whatsapp} alt="logo do whatsapp" /> </a>
+            <a href="https://github.com/RobertoDRS" target='blank'> <img src={Github} alt="logo do github" /> </a>
+            <a href="https://www.linkedin.com/in/roberto-rocha-a95100179/" target='blank'> <img src={Linkedin} alt="logo do linkedin" /> </a>
+            <a href="https://wa.me/5511944628852" target='blank'> <img src={Whatsapp} alt="logo do whatsapp" /> </a>
         </dir>
     )
 }

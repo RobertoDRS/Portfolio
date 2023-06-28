@@ -10,8 +10,8 @@ const CardProjects = (props) => {
             <div>
                 <span>{props.title}</span>
                 <div className='div-links-card-projects'>
-                    <a href="#">Ver site</a>
-                    <a href="#">Ver código</a>
+                    <a href={props.site} target='blank'>Ver site</a>
+                    <a href={props.codigo} target='blank'>Ver código</a>
                 </div>
             </div>
         </div>

@@ -18,9 +18,9 @@ const Footer = () => {
                 </div>
 
                 <div className='div-contato'>
-                    <a href="#"> <img src={Whatsapp} alt="Whatsapp simbolo" /> </a>
-                    <a href="#"> <img src={Email} alt="Email simbolo" /> </a>
-                    <a href="#"> <img src={Linkedin} alt="Linkedin simbolo" /> </a>
+                    <a href="https://wa.me/5511944628852" target='blank'> <img src={Whatsapp} alt="Whatsapp simbolo" /> </a>
+                    <a href="mailto:robertors99@hotmail.com?subject=Contato emprego" target='blank' > <img src={Email} alt="Email simbolo" /> </a>
+                    <a href="https://www.linkedin.com/in/roberto-rocha-a95100179/" target='blank'> <img src={Linkedin} alt="Linkedin simbolo" /> </a>
                 </div>
             </div>
         </footer>

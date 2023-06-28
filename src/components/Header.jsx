@@ -17,10 +17,10 @@ const Header = () => {
                     </h1>
 
                     <p className='paragrafo-header'>
-                        Eu estudo Ciências e Tecnologia na Universidade Federal do ABC, sou apaixonado por programação desde a infância e estou estudando para me tornar um programador full stack.
+                        Eu estudo Ciências e Tecnologia na Universidade Federal do ABC, sou apaixonado por programação desde a infância e estou estudando para me tornar um programador Front End.
                     </p>
 
-                    <a className='link-contato' href="#">Entrar em contato</a>
+                    <a className='link-contato' href="https://wa.me/5511944628852" target='blank'>Entrar em contato</a>
                 </div>
 
                 <div className="div-header-img"></div>
